@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "admin.h"
-#include "doctor.h"
 #include "patient.h"
+#include "doctor.h"
 
 int main() {
     int user_type;
