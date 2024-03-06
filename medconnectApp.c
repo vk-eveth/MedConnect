@@ -8,17 +8,20 @@
 #define MAX_CHECK_UPS 10
 #define MAX_ARTICLES 20
 
+//Profile Structure
 struct Profile {
     char name[50];
     int age;
     char medical_history[200];
 };
 
+//Articles structure
 struct Article {
     char title[100];
     char content[500];
 };
 
+//Message structure
 struct Message {
     char sender[20];
     char content[200];
