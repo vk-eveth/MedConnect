@@ -2,6 +2,7 @@
 #include <string.h>
 #include "admin.h"
 
+//admin structure
 struct Admin {
     char username[20];
     char password[20];
@@ -9,6 +10,7 @@ struct Admin {
 
 struct Admin admin = {"victor", "1234Admin"};
 
+//Admin menu
 void admin_menu() {
     int choice;
 
